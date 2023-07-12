@@ -35,6 +35,8 @@ tm_shape(us_sf) +
              popup.vars = c('field_site_subtype','n_mod', 'perc_skilled'))
 ```
 
+
+
 These plots show the percent of skillful water temperature forecasts over the thirty day forecast horizon. The first plot shows the percent of skillful forecasts over for NEON lake sites and river sites separately.
 
 ```{r}
