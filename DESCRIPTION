@@ -21,7 +21,8 @@ Depends: tidyverse,
          reactable,
          httr,
          flareVis,
-         vis4cast
+         vis4cast,
+         remotes
 Remotes:  
     github::flare-forecast/flareVis,
     github::eco4cast/score4cast, 
