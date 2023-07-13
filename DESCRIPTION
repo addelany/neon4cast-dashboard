@@ -22,7 +22,8 @@ Depends: tidyverse,
          httr,
          flareVis,
          vis4cast,
-         remotes
+         remotes, 
+         bsicons
 Remotes:  
     github::flare-forecast/flareVis,
     github::eco4cast/score4cast, 
