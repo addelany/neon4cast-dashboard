@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>EFI NEON Challenge - Status</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(img/2016-09_NIWO_Tower_1620x600.jpg);
+background-size: cover;
+      }
+</style>
+
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-17.0.0/react.min.js"></script>
+<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EFI NEON Challenge</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./phenology.html" rel="" target=""><i class="bi bi-tree-fill" role="img">
+</i> 
+ <span class="menu-text">Phenology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./aquatics.html" rel="" target=""><i class="bi bi-droplet" role="img">
+</i> 
+ <span class="menu-text">Aquatics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./terrestrial.html" rel="" target=""><i class="bi bi-thermometer-half" role="img">
+</i> 
+ <span class="menu-text">Terrestrial</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ticks.html" rel="" target=""><i class="bi bi-bug-fill" role="img">
+</i> 
+ <span class="menu-text">Ticks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./beetles.html" rel="" target=""><i class="bi bi-bug" role="img">
+</i> 
+ <span class="menu-text">Beetles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./noaa.html" rel="" target=""><i class="bi bi-cloud-rain-fill" role="img">
+</i> 
+ <span class="menu-text">Weather</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./status.html" rel="" target="" aria-current="page"><i class="bi bi-clipboard-pulse" role="img">
+</i> 
+ <span class="menu-text">Status</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Status</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-and-forecasts" id="toc-data-and-forecasts" class="nav-link active" data-scroll-target="#data-and-forecasts">Data and Forecasts</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eco4cast/neon4cast-dashboard/edit/main/status.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/eco4cast/neon4cast-dashboard/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+<section id="data-and-forecasts" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-forecasts">Data and Forecasts</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Met Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Phenology Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Aquatics Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Terrestrial Data (30min)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Terrestrial Data (Daily)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Ticks Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false">Beetles Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false">Automated Jobs</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>NOAA related processes:</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7ab03b4c25ff88d59ff1" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7ab03b4c25ff88d59ff1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"hc_names":["NOAA GEFS: stage 2","NOAA GEFS: stage 3","NOAA GEFS: stage 1"],"hc_status":["up","up","up"],"hc_latest":["2023-06-09 05:44:19","2023-06-09 10:13:32","2023-06-09 20:08:01"]},"columns":[{"id":"hc_names","name":"Process Name","type":"character","align":"left"},{"id":"hc_status","name":"Status","type":"character","align":"left"},{"id":"hc_latest","name":"Updated (UTC)","type":"character","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"eba8ff5e4be2d57a11d01d568e824ead"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li>Forecasts submitted over the last week: 72</li>
+<li>Forecasts submitted over the last month: 442</li>
+<li>Forecasts submitted over the last year: 2398</li>
+<li>Total Forecasts submitted: 4762</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0b293f1629c1f0398115" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0b293f1629c1f0398115">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["ABBY","ABBY","BARR","BARR","BART","BART","BLAN","BLAN","BONA","BONA","CLBJ","CLBJ","CPER","CPER","DCFS","DCFS","DEJU","DEJU","DELA","DELA","DSNY","DSNY","GRSM","GRSM","GUAN","GUAN","HARV","HARV","HEAL","HEAL","JERC","JERC","JORN","JORN","KONA","KONA","KONZ","KONZ","LAJA","LAJA","LENO","LENO","MLBS","MLBS","MOAB","MOAB","NIWO","NIWO","NOGP","NOGP","OAES","OAES","ONAQ","ONAQ","ORNL","ORNL","OSBS","OSBS","PUUM","PUUM","RMNP","RMNP","SCBI","SCBI","SERC","SERC","SJER","SJER","SOAP","SOAP","SRER","SRER","STEI","STEI","STER","STER","TALL","TALL","TEAK","TEAK","TOOL","TOOL","TREE","TREE","UKFS","UKFS","UNDE","UNDE","WOOD","WOOD","WREF","WREF","YELL","YELL"],"variable":["gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90"],"max_date":["2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-07","2023-06-07","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-07","2023-06-07","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-05-30","2023-05-30","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2022-09-29","2022-09-29","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2022-06-26","2022-06-26","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06","2023-06-06"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"6d58d48086bbcc1abe40f80bd72434ef"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ebbaa085f43304b8a4be" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ebbaa085f43304b8a4be">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["CSP_Gwave","CU_Pheno","DALEC_SIP","EFI_U_P","EFInull","Fourier","NEFIpheno","PEG","PEG","PEG_FUSION_0","PEG_FUSION_0","PEG_FUSION_1","PEG_FUSION_1","PEG_RFR","PEG_RFR0","PEG_RFR2","PhenoPhriends","Team_MODIS","UCSC_P_EDM","VT_Ph_GDD","cb_prophet","cb_prophet","climatology","climatology","greenbears","greenbears_gams","greenbears_par","greenbears_stl","humidity_lm","humidity_lm","humidity_lm_all_sites","humidity_lm_all_sites","persistence","persistence","persistenceRW","persistenceRW","precip_lm","precip_lm","temp_lm","temp_lm","temp_lm_all_sites","temp_lm_all_sites","tg_arima","tg_arima","tg_auto_adam","tg_auto_adam","tg_bag_mlp","tg_bag_mlp","tg_bag_mlp_all_sites","tg_bag_mlp_all_sites","tg_ets","tg_ets","tg_humidity_lm","tg_humidity_lm","tg_humidity_lm_all_sites","tg_humidity_lm_all_sites","tg_lasso","tg_lasso","tg_lasso_all_sites","tg_lasso_all_sites","tg_precip_lm","tg_precip_lm","tg_precip_lm_all_sites","tg_precip_lm_all_sites","tg_randfor","tg_randfor","tg_randfor_all_sites","tg_tbats","tg_tbats","tg_temp_lm","tg_temp_lm","tg_temp_lm_all_sites","tg_temp_lm_all_sites","xgboost_parallel","xgboost_parallel"],"variable":["gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","gcc_90","gcc_90","gcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90","gcc_90","rcc_90"],"recent_submission":["2021-05-21","2021-05-25","2021-07-16","2021-05-03","2022-02-04","2021-04-26","2021-12-17","2023-01-01","2023-01-01","2022-07-21","2022-07-21","2022-07-21","2022-07-21","2021-07-20","2021-07-20","2021-07-20","2021-11-01","2021-05-18","2021-10-19","2021-04-25","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2021-03-01","2021-03-17","2022-03-11","2021-03-08","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2022-08-23","2022-08-23","2023-06-05","2023-06-05","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-05-15","2023-05-15","2023-05-17","2023-05-17","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05"],"n_submissions":[20,12,135,1,353,2,85,340,155,319,319,113,113,83,83,62,9,10,262,2,176,176,757,757,2,2,61,1,2,2,2,2,169,13,276,276,1,1,4,4,4,4,121,121,14,14,1,1,1,1,118,118,128,128,128,128,91,91,24,24,127,127,125,125,78,78,18,116,116,128,128,127,127,69,69]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"fb2be450c14b262725d4b1d62549d73a"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<ul>
+<li>Forecasts submitted over the last week: 165</li>
+<li>Forecasts submitted over the last month: 1123</li>
+<li>Forecasts submitted over the last year: 5287</li>
+<li>Total Forecasts submitted: 5481</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7843b47acafd54ccacac" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7843b47acafd54ccacac">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["ARIK","ARIK","BARC","BARC","BARC","BIGC","BIGC","BLDE","BLDE","BLUE","BLUE","BLWA","BLWA","BLWA","CARI","CARI","COMO","COMO","CRAM","CRAM","CRAM","CUPE","CUPE","FLNT","FLNT","FLNT","GUIL","GUIL","HOPB","HOPB","KING","KING","LECO","LECO","LEWI","LEWI","LIRO","LIRO","LIRO","MART","MART","MAYF","MAYF","MCDI","MCDI","MCRA","MCRA","OKSR","OKSR","POSE","POSE","PRIN","PRIN","PRLA","PRLA","PRLA","PRPO","PRPO","PRPO","REDB","REDB","SUGG","SUGG","SUGG","SYCA","SYCA","TECR","TECR","TOMB","TOMB","TOMB","TOOK","TOOK","TOOK","WALK","WALK","WLOU","WLOU"],"variable":["oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature"],"max_date":["2023-06-07","2023-06-07","2023-05-31","2023-05-31","2023-06-07","2023-02-23","2023-01-09","2023-06-07","2023-06-07","2023-04-30","2023-04-30","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-03","2023-06-03","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2022-09-20","2022-09-20","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-06-07","2023-02-28","2023-02-28","2023-06-07","2023-06-07","2023-06-07","2022-09-19","2022-09-19","2022-09-20","2023-06-01","2023-06-01","2023-06-07","2023-06-07"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"3708b6648a272620da7951bdd3e9efb4"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b05da090e4e9bd6d2320" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-b05da090e4e9bd6d2320">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["Aquaers","Aquaers","Aquaers","BBTW","BBTW","BTW","BTW","EFInull","EFInull","GLEON_Chloe_precip","GLEON_JRabaey_mod","GLEON_JRabaey_temp_physics","GLEON_Kaelin","GLEON_RW","GLEON_RW","GLEON_RW","GLEON_SN","GLEON_SN","GLEON_SN","GLEON_lm","GLEON_lm_CHL_MS","GLEON_lm_Cayelan","GLEON_lm_CayelanTest","GLEON_lm_DaveRichardson_lag3","GLEON_lm_Joe_Rabaey_Wind","GLEON_lm_lag_1day","GLEON_lm_lag_1day","GLEON_physics","GLEON_poly3","GLEON_temp_name","IW_lm","Linear_regression","MSU_ARIMA","Martins_Oxy_Forecast_Test","NDWaterTempDO","USGSHABs1","VT_Aquaers","VT_Aquaers","VT_Aquaers","air2waterSat","air2waterSat","air2waterSat","air2waterSat_2","air2waterSat_2","baseline_ensemble","cb_TCN","cb_TCN","cb_TCN","cb_prophet","cb_prophet","cb_prophet","climatology","climatology","climatology","empirical","example_null","example_null","fARIMA","fARIMA_clim_ensemble","fTSLM_lag","fTSLM_lag","fable_ARIMA","fable_TSLM_lagged","flareGLM","flareGLM_noDA","flareGOTM","flareGOTM_noDA","flareSimstrat","flareSimstrat_noDA","flare_ensemble","flare_ler","flare_ler_baselines","humidity_lm","humidity_lm","humidity_lm","humidity_lm_all_sites","humidity_lm_all_sites","humidity_lm_all_sites","neon4cast_example","neon4cast_example","null","null","persistenceRW","persistenceRW","persistenceRW","precip_lm","precip_lm","precip_lm","precip_mod","procBlanchardMonod","procBlanchardSteele","procCTMIMonod","procCTMISteele","procEppleyNorbergMonod","procEppleyNorbergSteele","procHinshelwoodMonod","procHinshelwoodSteele","temp_ESR13","temp_lm_all_sites","temp_lm_all_sites","temp_lm_all_sites","temp_name","tg_arima","tg_arima","tg_arima","tg_auto_adam","tg_auto_adam","tg_auto_adam","tg_bag_mlp","tg_bag_mlp","tg_bag_mlp","tg_bag_mlp_all_sites","tg_bag_mlp_all_sites","tg_bag_mlp_all_sites","tg_ets","tg_ets","tg_ets","tg_humidity_lm","tg_humidity_lm","tg_humidity_lm","tg_humidity_lm_all_sites","tg_humidity_lm_all_sites","tg_humidity_lm_all_sites","tg_lasso","tg_lasso","tg_lasso","tg_lasso_all_sites","tg_lasso_all_sites","tg_lasso_all_sites","tg_precip_lm","tg_precip_lm","tg_precip_lm","tg_precip_lm_all_sites","tg_precip_lm_all_sites","tg_precip_lm_all_sites","tg_randfor","tg_randfor","tg_randfor","tg_randfor_all_sites","tg_randfor_all_sites","tg_tbats","tg_tbats","tg_tbats","tg_temp_lm","tg_temp_lm","tg_temp_lm","tg_temp_lm_all_sites","tg_temp_lm_all_sites","tg_temp_lm_all_sites","tslm","tslm","wtemp_RW_model","wtemp_clim_model","wtemp_lm_model","xgboost_parallel","xgboost_parallel","xgboost_parallel","xgboost_temp_oxygen","xgboost_temp_oxygen","xgboost_temp_oxygen_chla_parallel","xgboost_temp_oxygen_chla_parallel","xgboost_temp_oxygen_chla_parallel","xgboost_temp_oxygen_chla_parallel2","xgboost_temp_oxygen_chla_parallel2","xgboost_temp_oxygen_chla_parallel2","xgboost_temp_oxygen_chla_sequential","xgboost_temp_oxygen_chla_sequential","xgboost_temp_oxygen_chla_sequential","xgboost_temp_oxygen_parallel","xgboost_temp_oxygen_parallel","xgboost_temp_oxygen_sequential","xgboost_temp_oxygen_sequential","IW_example","LSAMP_AWPC","LSAMP_AWPC","VTaquatics","temp_lm","temp_lm","temp_lm","wbears_gp","wbears_gp","wbears_rnn","wbears_rnn"],"variable":["chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","oxygen","temperature","temperature","temperature","temperature","temperature","chla","oxygen","temperature","chla","oxygen","temperature","temperature","chla","temperature","temperature","temperature","temperature","temperature","oxygen","temperature","temperature","temperature","temperature","temperature","oxygen","oxygen","oxygen","chla","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","temperature","temperature","oxygen","chla","temperature","oxygen","chla","oxygen","temperature","chla","temperature","oxygen","temperature","temperature","temperature","temperature","chla","temperature","temperature","temperature","temperature","temperature","temperature","temperature","temperature","temperature","temperature","temperature","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","chla","temperature","chla","chla","chla","chla","chla","chla","chla","chla","temperature","oxygen","temperature","chla","temperature","temperature","oxygen","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","chla","temperature","oxygen","chla","oxygen","temperature","chla","oxygen","temperature","temperature","temperature","temperature","chla","oxygen","temperature","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature","oxygen","temperature","temperature","oxygen","temperature","oxygen","oxygen","temperature","chla","oxygen","temperature","oxygen","temperature"],"recent_submission":["2023-04-11","2023-04-11","2023-04-11","2021-05-01","2021-05-01","2021-05-01","2021-05-01","2021-10-01","2021-10-01","2022-12-22","2022-11-07","2023-05-14","2022-10-31","2022-10-19","2022-10-19","2022-10-30","2022-12-23","2022-12-23","2022-12-23","2022-12-22","2022-10-31","2022-11-01","2022-10-26","2022-11-02","2022-10-31","2023-03-10","2023-03-10","2023-05-27","2022-10-29","2023-01-30","2023-01-10","2022-12-23","2021-07-01","2022-11-01","2022-12-12","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2022-06-23","2022-09-08","2022-09-08","2023-06-05","2023-06-05","2023-06-04","2023-01-11","2023-01-11","2023-01-11","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-03-06","2021-09-27","2021-09-27","2023-06-05","2023-06-03","2023-06-05","2022-12-05","2022-10-20","2022-10-10","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-03-27","2023-06-04","2023-06-04","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-05-09","2023-05-09","2023-05-01","2023-05-01","2023-06-05","2023-06-05","2023-06-05","2023-01-24","2023-01-24","2023-01-24","2023-03-24","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-01-10","2023-01-24","2023-01-24","2023-01-24","2023-01-10","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-05-15","2023-05-15","2023-05-15","2023-05-17","2023-05-17","2023-05-17","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-04-30","2023-04-30","2023-01-12","2023-01-12","2023-01-08","2023-06-05","2023-06-05","2023-06-05","2023-02-07","2023-02-07","2023-06-05","2023-06-05","2023-06-05","2023-02-24","2023-02-24","2023-02-24","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-01-10","2021-08-01","2021-08-01","2021-04-01","2023-01-24","2023-01-24","2023-01-24","2021-05-01","2021-05-01","2021-06-01","2021-06-01"],"n_submissions":[1,1,1,1,1,1,1,15,15,6,1,177,1,1,1,4,2,2,2,7,1,1,1,1,1,115,114,107,1,1,1,1,1,1,1,83,44,44,44,77,97,97,213,213,77,1,1,1,160,160,160,399,402,395,1,2,2,176,69,179,2,6,5,178,97,91,77,96,71,1,49,45,2,2,2,2,2,2,5,5,142,142,268,268,268,1,1,1,77,37,37,37,37,36,36,37,36,1,4,4,4,1,121,121,121,14,14,14,1,1,1,1,1,1,118,118,118,128,128,128,128,128,128,91,91,91,24,24,24,127,127,127,125,125,125,78,78,78,18,18,118,118,117,128,128,128,127,127,127,136,136,1,1,1,69,69,69,1,1,109,109,109,1,1,1,109,109,109,114,114,114,114,1,2,2,2,4,4,4,1,1,2,1]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"792005bce0e883ebf9d4293b265960bc"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<ul>
+<li>Thirty minute forecasts submitted over the last week: 0</li>
+<li>Thirty minute forecasts submitted over the last month: 53</li>
+<li>Thirty minute forecasts submitted over the last year: 635</li>
+<li>Total Forecasts submitted: 726</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-819f6a93242a891d6cda" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-819f6a93242a891d6cda">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["ABBY","ABBY","BARR","BARR","BART","BART","BLAN","BLAN","BONA","BONA","CLBJ","CLBJ","CPER","CPER","DCFS","DCFS","DEJU","DEJU","DELA","DELA","DSNY","DSNY","GRSM","GRSM","GUAN","GUAN","HARV","HARV","HEAL","HEAL","JERC","JERC","JORN","JORN","KONA","KONA","KONZ","KONZ","LAJA","LAJA","LENO","LENO","MLBS","MLBS","MOAB","MOAB","NIWO","NIWO","NOGP","NOGP","OAES","OAES","ONAQ","ONAQ","ORNL","ORNL","OSBS","OSBS","PUUM","PUUM","RMNP","RMNP","SCBI","SCBI","SERC","SERC","SJER","SJER","SOAP","SOAP","SRER","SRER","STEI","STEI","STER","STER","TALL","TALL","TEAK","TEAK","TOOL","TOOL","TREE","TREE","UKFS","UKFS","UNDE","UNDE","WOOD","WOOD","WREF","WREF","YELL","YELL"],"variable":["le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee"],"max_date":["2023-05-29","2023-05-29","2023-05-24","2023-05-24","2023-05-29","2023-05-29","2023-05-27","2023-05-27","2023-05-29","2023-05-29","2023-05-26","2023-05-26","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-28","2023-05-28","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-26","2023-05-26","2023-05-26","2023-05-26","2023-05-16","2023-05-16","2023-05-29","2023-05-29","2023-05-18","2023-05-18","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-22","2023-05-22","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-27","2023-05-27","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-28","2023-05-28","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-15","2023-05-15","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-21","2023-05-21","2023-05-26","2023-05-26","2023-05-27","2023-05-27","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-15","2023-05-15","2023-03-07","2023-03-07"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"5ec268cacc5a5219416950bfb3e11cdc"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ac1b7421a5315afa7600" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ac1b7421a5315afa7600">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["BU_SIPNET","BU_SIPNET","BU_SIPNET","UCB_XT","UCB_XT","UCB_XT","VT_NEET","VT_NEET","VT_NEET","cb_prophet","cb_prophet","climatology","climatology","hist30min","hist30min","hist30min","IU_Eco2021","IU_Eco2021","IU_Eco2021"],"variable":["le","nee","vswc","le","nee","vswc","le","nee","vswc","le","nee","le","nee","le","nee","vswc","le","nee","vswc"],"recent_submission":["2021-09-07 00:00:00","2021-09-07 00:00:00","2021-09-07 00:00:00","2021-02-01 00:00:00","2021-02-01 00:00:00","2021-02-01 00:00:00","2021-04-01 00:00:00","2021-04-01 00:00:00","2021-04-01 00:00:00","2023-05-31%2000%3A00%3A00","2023-05-31%2000%3A00%3A00","2023-05-31%2000%3A00%3A00","2023-05-31%2000%3A00%3A00","2022-05-01 00:00:00","2022-05-01 00:00:00","2022-02-01 00:00:00","2021-04-25 00:00:00","2021-04-25 00:00:00","2021-04-25 00:00:00"],"n_submissions":[9,9,9,1,1,1,2,2,2,244,244,455,455,14,14,13,1,1,1]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"7c5fe9ba6f5b74f73d4b23712d278ab5"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<ul>
+<li>Daily forecasts submitted over the last week: 68</li>
+<li>Daily forecasts submitted over the last month: 420</li>
+<li>Daily forecasts submitted over the last year: 2220</li>
+<li>Total Forecasts submitted: 2468</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-faf203c0d969205b0971" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-faf203c0d969205b0971">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["ABBY","ABBY","BARR","BARR","BART","BART","BLAN","BLAN","BONA","BONA","CLBJ","CLBJ","CPER","CPER","DCFS","DCFS","DEJU","DEJU","DELA","DELA","DSNY","DSNY","GRSM","GRSM","GUAN","GUAN","HARV","HARV","HEAL","HEAL","JERC","JERC","JORN","JORN","KONA","KONA","KONZ","KONZ","LAJA","LAJA","LENO","LENO","MLBS","MLBS","MOAB","MOAB","NIWO","NIWO","NOGP","NOGP","OAES","OAES","ONAQ","ONAQ","ORNL","ORNL","OSBS","OSBS","PUUM","PUUM","RMNP","RMNP","SCBI","SCBI","SERC","SERC","SJER","SJER","SOAP","SOAP","SRER","SRER","STEI","STEI","STER","STER","TALL","TALL","TEAK","TEAK","TOOL","TOOL","TREE","TREE","UKFS","UKFS","UNDE","UNDE","WOOD","WOOD","WREF","WREF","YELL","YELL"],"variable":["le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee"],"max_date":["2023-05-29","2023-05-29","2023-05-24","2023-05-24","2023-05-29","2023-05-29","2023-05-27","2023-05-27","2023-05-29","2023-05-29","2023-05-26","2023-05-26","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-28","2023-05-28","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-26","2023-05-26","2023-05-26","2023-05-26","2023-05-14","2023-05-14","2023-05-29","2023-05-29","2023-05-08","2023-05-08","2023-05-28","2023-05-28","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-21","2023-05-21","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-27","2023-05-27","2023-05-24","2023-05-24","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-28","2023-05-28","2023-05-28","2023-05-28","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-04-30","2023-04-30","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-21","2023-05-21","2023-05-26","2023-05-26","2023-05-27","2023-05-27","2023-05-29","2023-05-29","2023-05-29","2023-05-29","2023-05-15","2023-05-15","2023-03-01","2023-03-01"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"66b250b4a6f54df9660c56c9199a128d"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8477438ab22a46ef8123" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-8477438ab22a46ef8123">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["EFInulldaily","EFInulldaily","EFInulldaily","FO_Test","ISWG","ISWG","ISWG","cb_autoarima","cb_autoarima","cb_autoarima","cb_expsmooth","cb_expsmooth","cb_expsmooth","cb_prophet","cb_prophet","climatology","climatology","humidity_lm","humidity_lm","humidity_lm_all_sites","humidity_lm_all_sites","lasso","lasso","nee_test","norfolkcha","norfolkcha","norfolkcha","persistence","persistence","persistenceRW","precip_lm","precip_lm","randfor","temp_lm","temp_lm","test_model","tg_arima","tg_arima","tg_auto_adam","tg_auto_adam","tg_bag_mlp","tg_bag_mlp","tg_bag_mlp_all_sites","tg_bag_mlp_all_sites","tg_ets","tg_ets","tg_humidity_lm","tg_humidity_lm","tg_humidity_lm_all_sites","tg_humidity_lm_all_sites","tg_precip_lm","tg_precip_lm","tg_precip_lm_all_sites","tg_precip_lm_all_sites","tg_randfor","tg_randfor","tg_tbats","tg_tbats","tg_temp_lm","tg_temp_lm","tg_temp_lm_all_sites","tg_temp_lm_all_sites","xgboost_parallel","xgboost_parallel","cb_theta","cb_theta","cb_theta","temp_lm_all_sites","temp_lm_all_sites"],"variable":["le","nee","vswc","nee","le","nee","vswc","chla","oxygen","temperature","chla","oxygen","temperature","le","nee","le","nee","le","nee","le","nee","nee","le","nee","le","nee","vswc","le","nee","nee","le","nee","le","le","nee","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","le","nee","chla","oxygen","temperature","le","nee"],"recent_submission":["2022-01-01","2022-01-01","2022-01-01","2023-02-14","2021-02-01","2021-02-01","2021-02-01","2022-06-17","2022-06-17","2022-06-17","2022-06-17","2022-06-17","2022-06-17","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-01-24","2023-01-24","2023-01-24","2023-01-24","2023-06-05","2023-06-05","2023-02-14","2021-04-01","2021-04-01","2021-04-01","2022-08-23","2022-08-23","2023-06-05","2023-01-24","2023-01-24","2023-06-05","2023-01-24","2023-01-24","2023-02-27","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-05-15","2023-05-15","2023-05-17","2023-05-17","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2023-06-05","2022-06-17","2022-06-17","2022-06-17","2023-01-24","2023-01-24"],"n_submissions":[27,27,27,1,2,2,2,1,1,1,1,1,1,160,160,419,419,2,2,1,1,91,91,1,4,4,4,172,172,269,1,1,18,4,4,1,125,125,14,14,1,1,1,1,118,118,128,128,128,128,128,128,126,126,78,78,118,118,128,128,128,128,68,68,1,1,1,3,3]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"e7ea276993d770b8146ca8da696f8099"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<ul>
+<li>Forecasts submitted over the last week: 14</li>
+<li>Forecasts submitted over the last month: 52</li>
+<li>Forecasts submitted over the last year: 182</li>
+<li>Total Forecasts submitted: 240</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2089f5aeac604973225e" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2089f5aeac604973225e">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["BLAN","KONZ","LENO","ORNL","OSBS","SCBI","SERC","TALL","UKFS"],"variable":["amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum"],"max_date":["2022-08-15","2022-09-12","2021-05-31","2022-09-19","2022-09-12","2022-09-12","2022-09-19","2022-09-19","2022-09-26"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"e66c6f55d810a63f1fb517ee60355bb1"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-90d097d3c3b00275275c" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-90d097d3c3b00275275c">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["BU_Dem","BU_Dem","EFI_avg_null","NJC_ETS_PF","NJC_ETS_PF","NJC_Ticks","NJC_Ticks","SynergisTicks","SynergisTicks","Ticks_288","Ticks_288","basic_arima","full_prophet","mean","tg_arima","tg_auto_adam","tg_ets","tg_humidity_lm_all_sites","tg_precip_lm_all_sites","tg_tbats","tg_temp_lm","tg_temp_lm_all_sites","tickGlobalNull_RandomWalk","tickGlobalNull_RandomWalk","top_3_weighted_average","UCLA_2022","full_arima","state_space","tg_humidity_lm","tg_lasso","VTicks","VTicks","basic_prophet","tg_lasso_all_sites","tg_precip_lm","tg_randfor_all_sites","tg_randfor","TickBench"],"variable":["ixodes_scapularis","amblyomma_americanum","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","ixodes_scapularis","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum","amblyomma_americanum"],"recent_submission":["2019-10-06","2019-10-06","2022-09-19","2019-10-06","2019-10-06","2019-10-06","2019-10-06","2021-03-31","2021-03-31","2021-03-31","2021-03-24","2021-09-27","2021-09-27","2022-09-05","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2019-10-06","2019-10-06","2021-09-27","2021-05-02","2021-09-27","2021-03-07","2023-06-04","2023-06-04","2019-04-01","2019-04-01","2021-09-27","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2021-03-07"],"n_submissions":[8,8,10,5,5,9,9,7,7,3,2,1,1,3,16,2,17,18,17,15,18,18,9,9,1,3,1,1,18,5,2,2,1,4,18,3,5,1]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"77ef749532911e90162fee4ad2512b1a"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<ul>
+<li>Forecasts submitted over the last week: 14</li>
+<li>Forecasts submitted over the last month: 55</li>
+<li>Forecasts submitted over the last year: 221</li>
+<li>Total Forecasts submitted: 230</li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Targets</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ae9dd743a41adb3880c3" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ae9dd743a41adb3880c3">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"site_id":["ABBY","ABBY","BARR","BARR","BART","BART","BLAN","BLAN","BONA","BONA","CLBJ","CLBJ","CPER","CPER","DCFS","DCFS","DEJU","DEJU","DELA","DELA","DSNY","DSNY","GRSM","GRSM","GUAN","GUAN","HARV","HARV","HEAL","HEAL","JERC","JERC","JORN","JORN","KONA","KONA","KONZ","KONZ","LAJA","LAJA","LENO","LENO","MLBS","MLBS","MOAB","MOAB","NIWO","NIWO","NOGP","NOGP","OAES","OAES","ONAQ","ONAQ","ORNL","ORNL","OSBS","OSBS","PUUM","PUUM","RMNP","RMNP","SCBI","SCBI","SERC","SERC","SJER","SJER","SOAP","SOAP","SRER","SRER","STEI","STEI","STER","STER","TALL","TALL","TEAK","TEAK","TOOL","TOOL","TREE","TREE","UKFS","UKFS","UNDE","UNDE","WOOD","WOOD","WREF","WREF","YELL","YELL"],"variable":["abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness"],"max_date":["2022-08-29","2022-08-29","2022-08-08","2022-08-08","2022-09-12","2022-09-12","2022-09-05","2022-09-05","2022-08-15","2022-08-15","2023-03-27","2023-03-27","2022-10-10","2022-10-10","2022-08-29","2022-08-29","2022-08-22","2022-08-22","2023-04-03","2023-04-03","2023-04-03","2023-04-03","2023-03-27","2023-03-27","2022-10-10","2022-10-10","2022-09-05","2022-09-05","2022-08-22","2022-08-22","2022-09-26","2022-09-26","2022-10-10","2022-10-10","2022-09-12","2022-09-12","2022-09-12","2022-09-12","2022-10-10","2022-10-10","2023-04-03","2023-04-03","2022-09-19","2022-09-19","2023-04-03","2023-04-03","2022-09-05","2022-09-05","2022-09-05","2022-09-05","2023-04-03","2023-04-03","2023-03-27","2023-03-27","2023-03-27","2023-03-27","2023-04-03","2023-04-03","2022-10-03","2022-10-03","2022-09-12","2022-09-12","2023-04-03","2023-04-03","2023-03-27","2023-03-27","2023-03-27","2023-03-27","2022-09-05","2022-09-05","2023-04-03","2023-04-03","2022-09-05","2022-09-05","2023-04-03","2023-04-03","2023-03-27","2023-03-27","2022-08-29","2022-08-29","2022-08-15","2022-08-15","2022-09-12","2022-09-12","2023-04-03","2023-04-03","2022-08-22","2022-08-22","2022-08-29","2022-08-29","2022-09-05","2022-09-05","2022-09-26","2022-09-26"]},"columns":[{"id":"site_id","name":"site_id","type":"character","align":"left"},{"id":"variable","name":"variable","type":"character","align":"left"},{"id":"max_date","name":"max date","type":"Date","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"0f98c83cadc2bc3b4050302bc7f98c6a"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<h1 style="color:#000;background:#FFFFFF;text-align:center;font-size:30px;font-style:normal;font-weight:bold;text-decoration:;letter-spacing:px;word-spacing:px;text-transform:;text-shadow:;margin-top:35px;margin-right:1px;margin-bottom:5px;margin-left:1px">Forecasts</h1>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4ae90bde41b6af167f1e" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4ae90bde41b6af167f1e">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"model_id":["EFI_avg_null","EFI_avg_null","EFInull","EFInull","arima","arima","cb_f1","cb_f1","cb_f2","cb_f2","cb_f3","cb_f3","mean","mean","null","null","tg_arima","tg_arima","tg_auto_adam","tg_auto_adam","tg_ets","tg_ets","tg_humidity_lm","tg_humidity_lm","tg_humidity_lm_all_sites","tg_humidity_lm_all_sites","tg_lasso_all_sites","tg_lasso_all_sites","tg_precip_lm","tg_precip_lm","tg_tbats","tg_tbats","tg_temp_lm","tg_temp_lm","tg_temp_lm_all_sites","tg_temp_lm_all_sites","tg_lasso","tg_lasso","tg_precip_lm_all_sites","tg_precip_lm_all_sites","tg_randfor","tg_randfor","tg_randfor_all_sites","tg_randfor_all_sites"],"variable":["abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness","abundance","richness"],"recent_submission":["2020-01-01","2020-01-01","2021-08-16","2021-08-16","2022-10-11","2022-10-11","2021-07-01","2021-07-01","2021-07-01","2021-07-01","2022-10-11","2022-10-11","2023-05-29","2022-09-05","2022-10-11","2022-10-11","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04","2023-06-04"],"n_submissions":[1,1,2,2,2,2,2,2,2,2,4,4,39,4,3,3,16,16,2,2,17,17,18,18,18,18,4,4,18,18,15,15,19,19,18,18,5,5,17,17,5,5,3,3]},"columns":[{"id":"model_id","name":"Model ID (team name)","type":"character","align":"left"},{"id":"variable","name":"Variable","type":"character","align":"left"},{"id":"recent_submission","name":"Most Recent Submission","type":"character","align":"left"},{"id":"n_submissions","name":"Number of Submissions","type":"numeric","align":"left"}],"filterable":true,"defaultSorted":[{"id":"recent_submission","desc":true}],"defaultPageSize":10,"highlight":true,"dataKey":"67dc46f7f1f75e28aced51859fa914a1"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ccbeb22b8ca0ac61711b" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ccbeb22b8ca0ac61711b">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"hc_names":["Beetles: run baseline models","Phenology: run baseline models","Terrestrial: generate targets","NOAA GEFS: stage 2","Aquatics: generate targets","Ticks: run baseline model","NOAA GEFS: stage 3","NEON: download non-target data","Ticks: generate targets","Beetles: generate targets","NEON: download targets data","Terrestrial: run baseline models","Scores: update in shiny dashboard","NOAA GEFS: stage 1","Aquatics: run baseline models","Scores: generate scores","Scores: initial processing of forecasts","Phenology: download and generate target data"],"hc_status":["up","up","up","up","up","up","up","down","up","up","up","up","up","up","up","up","up","up"],"hc_latest":["2023-06-04 12:03:23","2023-06-09 20:03:39","2023-06-09 09:01:03","2023-06-09 05:44:19","2023-06-09 07:13:26","2023-06-04 01:33:48","2023-06-09 10:13:32","2023-05-30 18:52:33","2023-06-04 10:00:12","2023-06-04 10:00:17","2023-06-09 02:39:12","2023-06-09 20:04:04","2023-06-09 19:59:06","2023-06-09 20:08:01","2023-06-09 20:03:02","2023-06-09 00:31:13","2023-06-09 20:00:03","2023-06-09 14:48:24"]},"columns":[{"id":"hc_names","name":"Process Name","type":"character","align":"left"},{"id":"hc_status","name":"Status","type":"character","align":"left"},{"id":"hc_latest","name":"Updated (UTC)","type":"character","align":"left"}],"filterable":true,"defaultPageSize":10,"highlight":true,"dataKey":"537ff8fb1ac46c1a0790acb99e0c08ed"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">CC-BY</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/eco4cast/neon4cast-dashboard">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
